@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Create Page</title>
+
+   
+</head>
+<body>
+    
+    <h1 >{{user}}</h1>
+      <ol> 
+    {% for instance in list %}
+        <li>{{instance.title}}</li>
+        {% endfor %} 
+      </ol>
+      <ul>
+    {% for whatever in filter %}
+     
+        <li>{{whatever.content}}</li>
+        {% endfor %} 
+        </ul>
+        
+     
+        <h1>{{get.content}}</h1>
+        <h1>{{get.title}}</h1>
+        <h1>{{get.timestamp}}</h1>
+        <h1>{{get.updated}}</h1>
+
+
+
+</body>
+</html>

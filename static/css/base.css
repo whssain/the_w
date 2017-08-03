@@ -1,0 +1,6 @@
+.list-images {
+    object-fit: cover !important;
+    height:400px !important;
+    max-width:100% !important;
+    margin:auto !important;
+}
